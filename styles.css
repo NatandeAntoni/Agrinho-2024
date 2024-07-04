@@ -36,10 +36,31 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('https://www.policiacivil.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2022-10/copia_de_apresentacao.jpg') no-repeat center center/cover;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
     color: #fff;
-    padding: 100px 20px;
+    padding: 50px 20px;
     text-align: center;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .content {
