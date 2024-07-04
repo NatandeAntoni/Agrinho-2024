@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 .hero-text {
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para suavizar o fundo */
 }
