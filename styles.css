@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f8ff;
@@ -50,18 +50,21 @@ nav ul li a:hover {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para suavizar o fundo */
 }
 
 .hero h1 {
     font-size: 4em;
     color: #ffffff;
     margin-bottom: 10px;
+    font-weight: 700; /* Adiciona peso à fonte */
 }
 
 .hero p {
     font-size: 2em;
     color: #ffffff;
     margin-bottom: 0;
+    font-weight: 300; /* Mantém a leveza da fonte */
 }
 
 .content {
